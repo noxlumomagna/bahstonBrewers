@@ -11,13 +11,13 @@ Must Include:<br/>
 {X} Data must be pulled from OpenBreweryDB API<br/>
 {X} Map that indicates brewery's latitude & longitude (Google Map React)<br/>
 {X} Brewery/Brewery Data presented as a list<br/>
-{X} Must be able to navigate<br/>
+{X} Must be able to navigate if necessary between brewery map and brewery selection<br/>
 {X} WebsiteURL (if available) must open in new tab<br/>
 {X} Use Javascript framework (React)<br/>
 {X} Add styling to improve UX <br/>
 
 Can Include:<br/>
-{X} Typescript<br/>
+{X} use of Typescript<br/>
 {} SASS/SCSS<br/>
 {X} Host Site (Vercel)<br/>
 
