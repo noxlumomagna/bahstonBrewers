@@ -1,2 +1,2 @@
-const googleKey = import.meta.env.googleAPIKey;
+const googleKey = 'key from google';
 export { googleKey }
