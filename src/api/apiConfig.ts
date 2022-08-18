@@ -1,4 +1,4 @@
-import { googleAPIKey } from "./googleAPIConfig";
+import { googleKey } from "./googleAPIConfig";
 import axios from "axios";
 const breweryUrl =
   "https://api.openbrewerydb.org/breweries?by_city=boston";
@@ -23,7 +23,7 @@ const getCoordinates = (street: string, city: string, state: string) => {
   let geocodeURL = `https://maps.googleapis.com/maps/api/geocode/json?address=${addStreet(
     splitStreet
   )},+${splitCity[0]}+${splitCity[1]},+${state}&key=${
-    googleAPIKey
+    googleKey
   }`;
   return axios.get(geocodeURL);
 };
