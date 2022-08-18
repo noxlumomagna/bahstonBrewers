@@ -24,3 +24,7 @@ Can Include:<br/>
 Nice to Include:<br/>
 {} Custom API<br/>
 {} Connected to Outside DB (MongoDB)<br/>
+
+to use:
+npm install
+npm run dev
