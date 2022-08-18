@@ -1,6 +1,6 @@
 import GoogleMapReact from 'google-map-react';
 import DropPin from './DropPin';
-import { googleAPIKey } from '../api/googleAPIConfig'
+import { googleKey } from '../api/googleAPIConfig'
 
 const Map = ({ latitude, longitude }:any) => {
     const mapProps = {
@@ -13,7 +13,7 @@ const Map = ({ latitude, longitude }:any) => {
   return (
     <div style={{ height: '40vh', width: '100%', paddingLeft: 15, paddingRight: 15, marginBottom: 20}}>
     <GoogleMapReact
-      bootstrapURLKeys={{ key: googleAPIKey || process.env.googleAPIKey }}
+      bootstrapURLKeys={{ key: googleKey }}
       center={mapProps.center}
       defaultZoom={mapProps.zoom}
     >
