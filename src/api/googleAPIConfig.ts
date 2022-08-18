@@ -1,2 +1,2 @@
-const googleAPIKey = 'AIzaSyCVER5PWqCzpk7kysqrVyBjsss9ddMmZ2s';
-export { googleAPIKey }
+const googleKey = import.meta.env.googleAPIKey;
+export { googleKey }
