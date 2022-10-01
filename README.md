@@ -28,3 +28,9 @@ Nice to Include:<br/>
 to use:<br/>
 npm install<br/>
 npm run dev<br/>
+
+Things to improve:
+---
+{}Design
+{}API Key Storage
+{}Better API to avoid broken links
